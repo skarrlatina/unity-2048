@@ -76,6 +76,7 @@ public class GridManager : MonoBehaviour
         int value = Random.Range(0, 10) == 0 ? 2 : 1; // (10% for 2);
         randomCell.SetValue(randomCell.X, randomCell.Y, value);
     }
+
     private void ResetMergeFlags()
     {
         int size = _cells.GetLength(0);
